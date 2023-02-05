@@ -53,4 +53,19 @@
 }
 footer {
   height: 100px;
+}
+
+#acomodar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#piePagina {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }/*# sourceMappingURL=style.css.map */
