@@ -4,31 +4,16 @@ const certificado = document.getElementById("certificado")
 const contacto = document.getElementById("contacto")
 const botonReiniciar = document.getElementById("reiniciar")
 
-const sectionTrabajo = document.getElementById("sectionTrabajo")
-const sectionServicio = document.getElementById("sectionServicio")
-const sectionCertificado = document.getElementById("sectionCertificado")
-const sectionReiniciar = document.getElementById("rei")
 const sectionBotones = document.getElementById("botones")
 const sectionInicio = document.getElementById("inicio")
 
 trabajos.addEventListener("click", functionTrabajos)
 servicio.addEventListener("click", functionServicio)
 certificado.addEventListener("click", functionCertificado)
-botonReiniciar.addEventListener("click", reiniciarPag)
 
 
-
-sectionReiniciar.style.display = "none"
-
-function reiniciarPag(){
-    location.reload()
-}
-
-function functionTrabajos(){
-    
-    
-    sectionReiniciar.style.display = "flex"
-    sectionTrabajo.innerHTML = `<section class="page-section bg-light" id="portfolio">
+function functionTrabajos(){   
+    document.getElementById("contenido").innerHTML = `<section class="page-section bg-light" id="portfolio">
     <div class="container">
         <div class="text-center">
             <h2 class="section-heading text-uppercase">TRABAJOS </h2>
@@ -137,25 +122,27 @@ function functionTrabajos(){
           </div>
       </div>
   </div>
-</div>`
+</div>
+<div id="rei">
+        <a href="./index.html"><button id="reiniciar">Volver</button></a>
+              </div>`;
 }
 
-function functionServicio(){
+function functionServicio(){    
     
-    sectionBotones.style.display = "none"
-    sectionReiniciar.style.display = "flex"
-    sectionServicio.innerHTML = `
+    document.getElementById("contenido").innerHTML =  `
     <div>
       <h2 class="text-center" >COMO TRABAJO Y EL TIEMPO QUE MANEJO:</h2>
             <img src="./assets/imagenes/Fase de diseño (Portada para Facebook) (1).jpg" id="img" alt="">
-    </div>`
+    </div>
+    <div id="rei">
+                <a href="./index.html"><button id="reiniciar">Volver</button></a>
+              </div>`
 }
 
-function functionCertificado(){
-    
-    sectionBotones.style.display = "none"
-    sectionReiniciar.style.display = "flex"
-    sectionCertificado.innerHTML = `<div class="color2">
+function functionCertificado(){   
+
+    document.getElementById("contenido").innerHTML = `<div class="color2">
     <div class="text-center">
     <h2 class="blanco" >CERTIFICACIONES</h2>
     </div>
@@ -179,7 +166,10 @@ function functionCertificado(){
             </div>
           </div>
     </section>
- </div> `
+ </div>
+ <div id="rei">
+                <a href="./index.html"><button id="reiniciar">Volver</button></a>
+              </div> `
 }
 
 {/* <div class="color">
