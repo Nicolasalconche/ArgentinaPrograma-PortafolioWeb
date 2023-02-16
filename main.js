@@ -26,7 +26,7 @@ function reiniciarPag(){
 
 function functionTrabajos(){
     
-    sectionBotones.style.display = "none"
+    
     sectionReiniciar.style.display = "flex"
     sectionTrabajo.innerHTML = `<section class="page-section bg-light" id="portfolio">
     <div class="container">
