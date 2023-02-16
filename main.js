@@ -32,7 +32,7 @@ function functionTrabajos(){
     <div class="container">
         <div class="text-center">
             <h2 class="section-heading text-uppercase">TRABAJOS </h2>
-            <h3 class="section-subheading text-muted">Sitios web realizados</h3>
+            <h3 class="section-subheading text-muted">Sitios web realizados, presiona en la imagen para obtener mas información del mismo y ver su sitio web.</h3>
         </div>
         <div class="row">
             <div class="col-lg-4 col-sm-6 mb-4">
@@ -179,7 +179,7 @@ function functionCertificado(){
             </div>
           </div>
     </section>
- </div>`
+ </div> `
 }
 
 {/* <div class="color">

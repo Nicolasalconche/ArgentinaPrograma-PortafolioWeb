@@ -33,6 +33,16 @@
 .card {
   margin-top: 40px;
   margin-bottom: 50px;
+  border-radius: 0px;
+}
+.card .btn {
+  border-radius: 50px;
+  border: transparent;
+  background-color: black;
+  color: white;
+}
+.card .btn:hover {
+  background-color: aqua;
 }
 
 #img {
@@ -49,23 +59,7 @@
   justify-content: space-around;
 }
 
-#servicio, #trabajo, #certificado {
-  width: 300px;
-  height: 100px;
-  margin-bottom: 30px;
-  margin-top: 30px;
-  padding: 10px;
-  box-sizing: border-box;
-  border: solid 1px;
-  border-radius: 20px;
-  background-color: black;
-  color: white;
-}
-#servicio a:hover, #trabajo a:hover, #certificado a:hover {
-  background-color: rgb(255, 255, 255);
-}
-
-#servicio:hover, #trabajo:hover, #certificado:hover, #reiniciar:hover {
+#reiniciar:hover {
   background-color: aqua;
 }
 
@@ -116,13 +110,160 @@
   background: #20ba5a;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 768px) {
-  .btn-wsp {
-    width: 63px;
-    height: 63px;
-    line-height: 66px;
-  }
+.buttons__redes {
+  height: 400px;
+  padding-top: 0;
 }
+.buttons__redes ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.buttons__redes ul li a {
+  transform: translate(0, 0);
+}
+.buttons__redes ul li a:hover {
+  transform: translate(20px, -15px);
+}
+
+.buttons__redes {
+  grid-area: contacto;
+  padding-top: 100px;
+}
+
+.buttons__redes ul {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.buttons__redes ul li {
+  list-style: none;
+  margin: 0 5px;
+}
+
+.buttons__redes ul li a {
+  text-decoration: none;
+  display: absolute;
+  display: block;
+  width: 210px;
+  height: 80px;
+  background: #fff;
+  text-align: left;
+  padding-left: 20px;
+  transform: rotate(-30deg) skew(25deg) translate(0, 0);
+  transition: 0.5s;
+  box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.5);
+}
+
+.buttons__redes ul li a .fa {
+  font-size: 50px;
+  color: #262626;
+  line-height: 80px;
+  transition: 0.5s;
+  padding-right: 14px;
+}
+
+.buttons__redes ul li a span {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 30px;
+  color: #262626;
+  letter-spacing: 4px;
+  transition: 0.5s;
+}
+
+.buttons__redes ul li a:before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: -20px;
+  height: 100%;
+  width: 20px;
+  background: #b1b1b1;
+  transform: 0.5s;
+  transform: rotate(0deg) skewY(-45deg);
+}
+
+.buttons__redes ul li a:after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: -10px;
+  height: 20px;
+  width: 100%;
+  background: #b1b1b1;
+  transform: 0.5s;
+  transform: rotate(0deg) skewX(-45deg);
+}
+
+.buttons__redes ul li a:hover {
+  transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
+  box-shadow: -50px 50px 50px rgba(0, 0, 0, 0.5);
+}
+
+.buttons__redes ul li:hover .fa {
+  color: #FFF;
+}
+
+.buttons__redes ul li:hover span {
+  color: #FFF;
+}
+
+.buttons__redes ul li:hover:nth-child(1) a {
+  background: #3b5998;
+}
+
+.buttons__redes ul li:hover:nth-child(1) a:before {
+  background: #365492;
+}
+
+.buttons__redes ul li:hover:nth-child(1) a:after {
+  background: #4a69ad;
+}
+
+.buttons__redes ul li:hover:nth-child(2) a {
+  background: #00aced;
+}
+
+.buttons__redes ul li:hover:nth-child(2) a:before {
+  background: #097aa5;
+}
+
+.buttons__redes ul li:hover:nth-child(2) a:after {
+  background: #53b9e0;
+}
+
+.buttons__redes ul li:hover:nth-child(3) a {
+  background: #3fdd39;
+}
+
+.buttons__redes ul li:hover:nth-child(3) a:before {
+  background: #2fb32b;
+}
+
+.buttons__redes ul li:hover:nth-child(3) a:after {
+  background: #5ae65a;
+}
+
+.buttons__redes ul li:hover:nth-child(4) a {
+  background: #e4405f;
+}
+
+.buttons__redes ul li:hover:nth-child(4) a:before {
+  background: #d81c3f;
+}
+
+.buttons__redes ul li:hover:nth-child(4) a:after {
+  background: #e46880;
+}
+
 #portfolio .portfolio-item {
   max-width: 26rem;
   margin-left: auto;
@@ -222,6 +363,19 @@
   opacity: 0.3;
 }
 
+@media screen and (max-width: 800px) {
+  .buttons__redes {
+    margin-bottom: 100px;
+  }
+  .buttons__redes ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .buttons__redes ul li {
+    margin: 30px;
+  }
+}
 @media (max-width: 720px) {
   .tarjetas {
     flex-wrap: wrap;
@@ -233,6 +387,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .btn-wsp {
+    width: 63px;
+    height: 63px;
+    line-height: 66px;
   }
 }
 footer {
