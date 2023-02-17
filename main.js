@@ -17,7 +17,7 @@ function functionTrabajos(){
     <div class="container">
         <div class="text-center">
             <h2 class="section-heading text-uppercase">TRABAJOS </h2>
-            <h3 class="section-subheading text-muted">Sitios web realizados, presiona en la imagen para obtener mas información del mismo y ver su sitio web.</h3>
+            <h4 class="section-subheading text-muted">Sitios web realizados, presiona imagen para obtener informacion del trabajo o el boton de abajo para ver el sitio web.</h4>
         </div>
         <div class="row">
             <div class="col-lg-4 col-sm-6 mb-4">
@@ -78,17 +78,10 @@ function functionTrabajos(){
                           <p>Ademas de:</p>
                           <p>Sistema de turnos online: pagina que maneja los turnos de sus clientes y ella controla todo eso mediante la misma</p>
                           <p>Boton emergente de whatsapp: para asi poder contactarte al instante con la persona responsable del negocio.</p>
-                          <p>
-                          Para ver el sitio presiona el boton de aqui abajo que dice "sitio web".
-                          </p>
                           <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                               <i class="fas fa-xmark me-1"></i>
                               Salir
                           </button>
-                          <a href="https://marfilmasajes.netlify.app/"><button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                            <i class="fas fa-xmark me-1"></i>
-                            Sitio Web
-                          </button></a>
                       </div>
                   </div>
               </div>
@@ -114,17 +107,10 @@ function functionTrabajos(){
                           <p>Contacto: información escencial como: ubicación del negocio, medios de contacto, horarios de atención</p>
                           <p>Ademas de:</p>
                           <p>Boton emergente de whatsapp: para asi poder contactarte al instante con la persona responsable del negocio.</p>
-                          <p>
-                          Para ver el sitio presiona el boton de aqui abajo que dice "sitio web".
-                          </p>
                           <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                               <i class="fas fa-xmark me-1"></i>
                               Salir
                           </button>
-                          <a href="https://takojet.netlify.app/"><button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                            <i class="fas fa-xmark me-1"></i>
-                            Sitio Web
-                          </button></a>
                       </div>
                   </div>
               </div>
