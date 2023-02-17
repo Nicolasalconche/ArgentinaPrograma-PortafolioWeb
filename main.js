@@ -31,6 +31,10 @@ function functionTrabajos(){
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading">Marfil</div>
                         <div class="portfolio-caption-subheading text-muted">Masajes</div>
+                        <a href="https://marfilmasajes.netlify.app/"><button class="btn btn-primary btn-sm text-uppercase" data-bs-dismiss="modal" type="button">
+                            <i class="fas fa-xmark me-1"></i>
+                            Sitio Web
+                          </button></a>
                     </div>
                 </div>
             </div>
@@ -45,6 +49,11 @@ function functionTrabajos(){
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading">Tako Jet</div>
                         <div class="portfolio-caption-subheading text-muted">Zapateria y Cerrajeria</div>
+                        </button>  
+                          <a href="https://takojet.netlify.app/"><button class="btn btn-primary btn-sm text-uppercase" data-bs-dismiss="modal" type="button">
+                            <i class="fas fa-xmark me-1"></i>
+                            Sitio Web
+                          </button></a>
                     </div>
                 </div>
             </div>

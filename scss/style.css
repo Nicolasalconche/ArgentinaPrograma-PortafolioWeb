@@ -38,7 +38,7 @@
 .card .btn {
   border-radius: 50px;
   border: transparent;
-  background-color: black;
+  background-color: rgb(78, 161, 78);
   color: white;
 }
 .card .btn:hover {
@@ -50,7 +50,10 @@
 }
 
 .btn {
-  border-radius: 0;
+  border-radius: 50px;
+  margin-top: 10px;
+  background-color: rgb(78, 161, 78);
+  border: transparent;
 }
 
 #botones {
@@ -153,7 +156,7 @@
   display: block;
   width: 210px;
   height: 80px;
-  background: #fff;
+  background: #d8d8d8;
   text-align: left;
   padding-left: 20px;
   transform: rotate(-30deg) skew(25deg) translate(0, 0);
