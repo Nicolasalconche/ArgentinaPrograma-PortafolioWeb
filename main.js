@@ -163,7 +163,13 @@ function functionCertificado(){
           <div class="card" style="width: 18rem;">
             <img src="./assets/imagenes/diseñoGrafico.png" class="card-img-top" alt="..." height="220">
             <div class="card-body text-center">
-              <a href="./assets/imagenes/Certificado_de_aprobacin.pdf" class="btn btn-primary">Mostrar Credencial</a>
+              <a href="./assets/imagenes/certificado_de_aprobacin.pdf" class="btn btn-primary">Mostrar Credencial</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/imagenes/ciberseguridad.png" class="card-img-top" alt="..." height="220">
+            <div class="card-body text-center">
+              <a href="./assets/imagenes/ciberseguridad.pdf" class="btn btn-primary">Mostrar Credencial</a>
             </div>
           </div>
     </section>
