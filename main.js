@@ -17,7 +17,7 @@ function functionTrabajos(){
     <div class="container">
         <div class="text-center">
             <h2 class="section-heading text-uppercase">TRABAJOS </h2>
-            <h4 class="section-subheading text-muted">Sitios web realizados, presiona imagen para obtener informacion del trabajo o el boton de abajo para ver el sitio web.</h4>
+            <h4 class="section-subheading text-muted">Sitios web realizados, presiona la imagen para obtener informacion del trabajo o el boton de abajo para ver el sitio web.</h4>
         </div>
         <div class="row">
             <div class="col-lg-4 col-sm-6 mb-4">
@@ -158,6 +158,12 @@ function functionCertificado(){
             <img src="./assets/imagenes/certificado2.png" class="card-img-top" alt="..." height="220">
             <div class="card-body text-center">
               <a href="https://seprogramar.inti.gob.ar/inti/certificates/verify/zY_e2b-pYpIr-psm" class="btn btn-primary">Mostrar Credencial</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/imagenes/diseñoGrafico.png" class="card-img-top" alt="..." height="220">
+            <div class="card-body text-center">
+              <a href="./assets/imagenes/Certificado_de_aprobacin.pdf" class="btn btn-primary">Mostrar Credencial</a>
             </div>
           </div>
     </section>
