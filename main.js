@@ -127,6 +127,7 @@ function functionServicio(){
     
     document.getElementById("contenido").innerHTML =  `
     <div>
+    <h2 class="text-center">SERVICIOS QUE OFREZCO:</h2>
     <div class="container-1">
         <div class="card-1">
             <div class="card__image-container">
