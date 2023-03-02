@@ -127,6 +127,56 @@ function functionServicio(){
     
     document.getElementById("contenido").innerHTML =  `
     <div>
+    <div class="container-1">
+        <div class="card-1">
+            <div class="card__image-container">
+            </div>
+            
+            <svg class="card__svg" viewBox="0 0 800 500">
+
+                <path d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500" stroke="transparent" fill="#333"></path>
+                <path class="card__line" d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400" stroke="pink" stroke-width="3" fill="transparent"></path>
+            </svg>
+            
+            <div class="card__content">
+            <p class="card__title">Landing page</p>
+            <p>Una landing page es una única página, donde las secciones se visualizan al hacer el scroll. No hay páginas internas. Es ideal para pequeños emprendedores que quieren tener presencia digital y mostrar sus servicios.</p>
+            <button class="button-1"> Activo </button>
+            </div>
+        </div>
+        <div class="card-1">
+            <div class="card__image-container">
+            </div>
+            
+            <svg class="card__svg" viewBox="0 0 800 500">
+
+                <path d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500" stroke="transparent" fill="#333"></path>
+                <path class="card__line" d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400" stroke="pink" stroke-width="3" fill="transparent"></path>
+            </svg>
+            
+            <div class="card__content">
+            <p class="card__title">Pagina web basica</p>
+            <p>Una página web básica cuenta con 4/5 secciones. Es ideal para aquellos que cuentan con poco contenido y quieren tener su sitio web y llevar su negocio online.</p>
+            <button class="button-1"> Activo </button>
+            </div>
+        </div>
+        <div class="card-1">
+            <div class="card__image-container">
+            </div>
+            
+            <svg class="card__svg" viewBox="0 0 800 500">
+
+                <path d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500" stroke="transparent" fill="#333"></path>
+                <path class="card__line" d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400" stroke="pink" stroke-width="3" fill="transparent"></path>
+            </svg>
+            
+            <div class="card__content">
+            <p class="card__title">Tienda online</p>
+            <p>Una tienda online (o ecommerce) permite vender tus productos (o servicios) facilitando el proceso y potenciando al máximo las ventas. Da la posibilidad de llegar a cualquier parte del país, y tener la página web disponible las 24 horas del día de los 365 días del año.</p>
+            <button class="button-1"> Proximamente </button>
+            </div>
+        </div>
+    </div>
       <h2 class="text-center" >COMO TRABAJO Y EL TIEMPO QUE MANEJO:</h2>
             <img src="./assets/imagenes/Fase de diseño (Portada para Facebook) (1).jpg" id="img" alt="">
     </div>
