@@ -200,6 +200,12 @@ function functionCertificado(){
             </div>
           </div>
           <div class="card" style="width: 18rem;">
+            <img src="./assets/imagenes/javaScript.png" class="card-img-top" alt="..." height="220">
+            <div class="card-body text-center">
+              <a href="https://www.coderhouse.com/certificados/6407d211b5de12000e538d84" class="btn btn-primary">Mostrar Credencial</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
             <img src="./assets/imagenes/Programacion basica.png" class="card-img-top" alt="..."height="220">
             <div class="card-body text-center">
               <a href="https://platzi.com/p/nicolas_alcon/curso/3208-programacion-basica/diploma/detalle/" class="btn btn-primary">Mostrar Credencial</a>

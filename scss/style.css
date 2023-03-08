@@ -288,7 +288,7 @@
   margin: 20px;
   background: #333;
   width: 250px;
-  height: 450px;
+  height: 530px;
   border-radius: 10px;
   padding: 2rem;
   color: #aaa;
@@ -374,6 +374,7 @@
   }
 }
 .button-1 {
+  margin-top: 40px;
   --glow-color: rgb(217, 176, 255);
   --glow-spread-color: rgba(191, 123, 255, 0.781);
   --enhanced-glow-color: rgb(231, 206, 255);
