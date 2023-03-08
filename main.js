@@ -31,10 +31,19 @@ function functionTrabajos(){
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading">Marfil</div>
                         <div class="portfolio-caption-subheading text-muted">Masajes</div>
-                        <a href="https://marfilmasajes.netlify.app/"><button class="btn btn-primary btn-sm text-uppercase" data-bs-dismiss="modal" type="button">
-                            <i class="fas fa-xmark me-1"></i>
-                            Sitio Web
-                          </button></a>
+                        <div class="sitio">
+                            <a href="https://marfilmasajes.netlify.app/"><button type="button" class="btn-2">
+                            <strong>Sitio web</strong>
+                            <div id="container-stars">
+                            <div id="stars"></div>
+                            </div>
+                            <div id="glow">
+                                <div class="circle-2"></div>
+                                <div class="circle-2"></div>
+                            </div>
+                        </button>
+                      </a>
+                      </div>
                     </div>
                 </div>
             </div>
@@ -49,11 +58,19 @@ function functionTrabajos(){
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading">Tako Jet</div>
                         <div class="portfolio-caption-subheading text-muted">Zapateria y Cerrajeria</div>
-                        </button>  
-                          <a href="https://takojet.netlify.app/"><button class="btn btn-primary btn-sm text-uppercase" data-bs-dismiss="modal" type="button">
-                            <i class="fas fa-xmark me-1"></i>
-                            Sitio Web
-                          </button></a>
+                        </button> 
+                        <div class="sitio"> 
+                          <a href="https://takojet.netlify.app/"><button type="button" class="btn-2">
+                          <strong>Sitio web</strong>
+                          <div id="container-stars">
+                          <div id="stars"></div>
+                          </div>
+                          <div id="glow">
+                              <div class="circle-2"></div>
+                              <div class="circle-2"></div>
+                          </div>
+                      </button></a>
+                      </div>
                     </div>
                 </div>
             </div>
@@ -196,37 +213,116 @@ function functionCertificado(){
         <div class="card" style="width: 18rem;">
             <img src="./assets/imagenes/Diploma desarrollo web.png" class="card-img-top" alt="..." height="220">
             <div class="card-body text-center">
-              <a href="https://www.coderhouse.com/certificados/639b8f50ac12d1000e961d6f" class="btn btn-primary">Mostrar Credencial</a>
+              <a href="https://www.coderhouse.com/certificados/639b8f50ac12d1000e961d6f"><button class="continue-application">
+              <div>
+                  <div class="pencil"></div>
+                  <div class="folder">
+                      <div class="top">
+                          <svg viewBox="0 0 24 27">
+                              <path d="M1,0 L23,0 C23.5522847,-1.01453063e-16 24,0.44771525 24,1 L24,8.17157288 C24,8.70200585 23.7892863,9.21071368 23.4142136,9.58578644 L20.5857864,12.4142136 C20.2107137,12.7892863 20,13.2979941 20,13.8284271 L20,26 C20,26.5522847 19.5522847,27 19,27 L1,27 C0.44771525,27 6.76353751e-17,26.5522847 0,26 L0,1 C-6.76353751e-17,0.44771525 0.44771525,1.01453063e-16 1,0 Z"></path>
+                          </svg>
+                      </div>
+                      <div class="paper"></div>
+                  </div>
+              </div>
+              Mostrar Credencial
+          </button></a>
             </div>
           </div>
           <div class="card" style="width: 18rem;">
             <img src="./assets/imagenes/javaScript.png" class="card-img-top" alt="..." height="220">
             <div class="card-body text-center">
-              <a href="https://www.coderhouse.com/certificados/6407d211b5de12000e538d84" class="btn btn-primary">Mostrar Credencial</a>
+            <a href="https://www.coderhouse.com/certificados/6407d211b5de12000e538d84"><button class="continue-application">
+            <div>
+                <div class="pencil"></div>
+                <div class="folder">
+                    <div class="top">
+                        <svg viewBox="0 0 24 27">
+                            <path d="M1,0 L23,0 C23.5522847,-1.01453063e-16 24,0.44771525 24,1 L24,8.17157288 C24,8.70200585 23.7892863,9.21071368 23.4142136,9.58578644 L20.5857864,12.4142136 C20.2107137,12.7892863 20,13.2979941 20,13.8284271 L20,26 C20,26.5522847 19.5522847,27 19,27 L1,27 C0.44771525,27 6.76353751e-17,26.5522847 0,26 L0,1 C-6.76353751e-17,0.44771525 0.44771525,1.01453063e-16 1,0 Z"></path>
+                        </svg>
+                    </div>
+                    <div class="paper"></div>
+                </div>
+            </div>
+            Mostrar Credencial
+        </button>
+              
             </div>
           </div>
           <div class="card" style="width: 18rem;">
             <img src="./assets/imagenes/Programacion basica.png" class="card-img-top" alt="..."height="220">
             <div class="card-body text-center">
-              <a href="https://platzi.com/p/nicolas_alcon/curso/3208-programacion-basica/diploma/detalle/" class="btn btn-primary">Mostrar Credencial</a>
+              <a href="https://platzi.com/p/nicolas_alcon/curso/3208-programacion-basica/diploma/detalle/" ><button class="continue-application">
+              <div>
+                  <div class="pencil"></div>
+                  <div class="folder">
+                      <div class="top">
+                          <svg viewBox="0 0 24 27">
+                              <path d="M1,0 L23,0 C23.5522847,-1.01453063e-16 24,0.44771525 24,1 L24,8.17157288 C24,8.70200585 23.7892863,9.21071368 23.4142136,9.58578644 L20.5857864,12.4142136 C20.2107137,12.7892863 20,13.2979941 20,13.8284271 L20,26 C20,26.5522847 19.5522847,27 19,27 L1,27 C0.44771525,27 6.76353751e-17,26.5522847 0,26 L0,1 C-6.76353751e-17,0.44771525 0.44771525,1.01453063e-16 1,0 Z"></path>
+                          </svg>
+                      </div>
+                      <div class="paper"></div>
+                  </div>
+              </div>
+              Mostrar Credencial
+          </button></a>
             </div>
           </div>
           <div class="card" style="width: 18rem;">
             <img src="./assets/imagenes/certificado2.png" class="card-img-top" alt="..." height="220">
             <div class="card-body text-center">
-              <a href="https://seprogramar.inti.gob.ar/inti/certificates/verify/zY_e2b-pYpIr-psm" class="btn btn-primary">Mostrar Credencial</a>
+              <a href="https://seprogramar.inti.gob.ar/inti/certificates/verify/zY_e2b-pYpIr-psm" ><button class="continue-application">
+              <div>
+                  <div class="pencil"></div>
+                  <div class="folder">
+                      <div class="top">
+                          <svg viewBox="0 0 24 27">
+                              <path d="M1,0 L23,0 C23.5522847,-1.01453063e-16 24,0.44771525 24,1 L24,8.17157288 C24,8.70200585 23.7892863,9.21071368 23.4142136,9.58578644 L20.5857864,12.4142136 C20.2107137,12.7892863 20,13.2979941 20,13.8284271 L20,26 C20,26.5522847 19.5522847,27 19,27 L1,27 C0.44771525,27 6.76353751e-17,26.5522847 0,26 L0,1 C-6.76353751e-17,0.44771525 0.44771525,1.01453063e-16 1,0 Z"></path>
+                          </svg>
+                      </div>
+                      <div class="paper"></div>
+                  </div>
+              </div>
+              Mostrar Credencial
+          </button></a>
             </div>
           </div>
           <div class="card" style="width: 18rem;">
             <img src="./assets/imagenes/diseñoGrafico.png" class="card-img-top" alt="..." height="220">
             <div class="card-body text-center">
-              <a href="./assets/imagenes/certificado_de_aprobacin.pdf" class="btn btn-primary">Mostrar Credencial</a>
+              <a href="./assets/imagenes/certificado_de_aprobacin.pdf"><button class="continue-application">
+              <div>
+                  <div class="pencil"></div>
+                  <div class="folder">
+                      <div class="top">
+                          <svg viewBox="0 0 24 27">
+                              <path d="M1,0 L23,0 C23.5522847,-1.01453063e-16 24,0.44771525 24,1 L24,8.17157288 C24,8.70200585 23.7892863,9.21071368 23.4142136,9.58578644 L20.5857864,12.4142136 C20.2107137,12.7892863 20,13.2979941 20,13.8284271 L20,26 C20,26.5522847 19.5522847,27 19,27 L1,27 C0.44771525,27 6.76353751e-17,26.5522847 0,26 L0,1 C-6.76353751e-17,0.44771525 0.44771525,1.01453063e-16 1,0 Z"></path>
+                          </svg>
+                      </div>
+                      <div class="paper"></div>
+                  </div>
+              </div>
+              Mostrar Credencial
+          </button></a>
             </div>
           </div>
           <div class="card" style="width: 18rem;">
             <img src="./assets/imagenes/ciberseguridad.png" class="card-img-top" alt="..." height="220">
             <div class="card-body text-center">
-              <a href="./assets/imagenes/ciberseguridad.pdf" class="btn btn-primary">Mostrar Credencial</a>
+              <a href="./assets/imagenes/ciberseguridad.pdf"><button class="continue-application">
+              <div>
+                  <div class="pencil"></div>
+                  <div class="folder">
+                      <div class="top">
+                          <svg viewBox="0 0 24 27">
+                              <path d="M1,0 L23,0 C23.5522847,-1.01453063e-16 24,0.44771525 24,1 L24,8.17157288 C24,8.70200585 23.7892863,9.21071368 23.4142136,9.58578644 L20.5857864,12.4142136 C20.2107137,12.7892863 20,13.2979941 20,13.8284271 L20,26 C20,26.5522847 19.5522847,27 19,27 L1,27 C0.44771525,27 6.76353751e-17,26.5522847 0,26 L0,1 C-6.76353751e-17,0.44771525 0.44771525,1.01453063e-16 1,0 Z"></path>
+                          </svg>
+                      </div>
+                      <div class="paper"></div>
+                  </div>
+              </div>
+              Mostrar Credencial
+          </button></a>
             </div>
           </div>
     </section>
