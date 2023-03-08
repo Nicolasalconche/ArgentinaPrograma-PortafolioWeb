@@ -245,7 +245,7 @@ function functionCertificado(){
                 </div>
             </div>
             Mostrar Credencial
-        </button>
+        </button></a>
               
             </div>
           </div>
