@@ -199,8 +199,8 @@ function functionServicio(){
             <a href="#" class="formaTrabajo">
                 <img src="./assets/imagenes/Fase de diseño (Portada para Facebook) (1).jpg" alt="" class="width1">
                 <img src="./assets/formaTrabajo.png" alt="" class="width2">
-            </a>
-          
+                <img src="./assets/faseDiseño.png" alt="" class="width3">
+            </a>    
     </div>
     <div id="rei">
                 <a href="./index.html"><button id="reiniciar">Volver</button></a>
