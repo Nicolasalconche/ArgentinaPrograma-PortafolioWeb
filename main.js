@@ -198,8 +198,7 @@ function functionServicio(){
       <h2 class="text-center" >COMO TRABAJO Y EL TIEMPO QUE MANEJO:</h2>
             <a href="#" class="formaTrabajo">
                 <img src="./assets/imagenes/Fase de diseño (Portada para Facebook) (1).jpg" alt="" class="width1">
-                <img src="./assets/formaTrabajo.png" alt="" class="width2">
-                <img src="./assets/faseDiseño.png" alt="" class="width3">
+                <img src="./assets/faseDiseño.png" alt="" class="width2">
             </a>    
     </div>
     <div id="rei">
