@@ -36,3 +36,13 @@
         line-height: 66px;
 	}
 }
+
+
+.formaTrabajo img{display:none;
+                    width: 100%;}
+.formaTrabajo .width1{display:block;}
+@media (max-width:600px){
+    .formaTrabajo .width2{display:block;
+        width: 100%;}
+    .formaTrabajo .width1{display:none;}
+}

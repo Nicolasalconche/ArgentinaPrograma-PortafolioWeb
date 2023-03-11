@@ -196,7 +196,11 @@ function functionServicio(){
         </div>
     </div>
       <h2 class="text-center" >COMO TRABAJO Y EL TIEMPO QUE MANEJO:</h2>
-            <img src="./assets/imagenes/Fase de diseño (Portada para Facebook) (1).jpg" id="img" alt="">
+            <a href="#" class="formaTrabajo">
+                <img src="./assets/imagenes/Fase de diseño (Portada para Facebook) (1).jpg" alt="" class="width1">
+                <img src="./assets/formaTrabajo.png" alt="" class="width2">
+            </a>
+          
     </div>
     <div id="rei">
                 <a href="./index.html"><button id="reiniciar">Volver</button></a>
@@ -245,8 +249,7 @@ function functionCertificado(){
                 </div>
             </div>
             Mostrar Credencial
-        </button></a>
-              
+        </button></a>  
             </div>
           </div>
           <div class="card" style="width: 18rem;">
